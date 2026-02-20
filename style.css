@@ -120,6 +120,18 @@ body {
 #projects-scroll::-webkit-scrollbar {
   display: none;
 }
+#projects-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
 
 .project-fixed-card {
   width: 500px;
